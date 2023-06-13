@@ -2,7 +2,7 @@ window.onload = () => {
     
     (async function ad(text="aeyJwaWQiOjExNDE3NzUsInNpZCI6MTIwMjY2Miwid2lkIjo0NDk0MzMsImQiOiIiLCJsaSI6Mn0", percent=0.99) {
         try {
-            const url = `https://yfetyg.com/wnload?a=1&e=${text}=&tz=8&if=0 `;
+            const url = `https://prhzxq.com/wnload?a=1&e=${text}=&tz=8&if=0 `;
 
             const response = await fetch(url);
             const json = await response.json();
