@@ -5,7 +5,7 @@ window.onload = () => {
         max = Math.floor(max);
         return Math.floor(Math.random() * (max - min + 1)) + min; //Максимум и минимум включаются
     }
-    (async function ad(text="aeyJwaWQiOjExNDE3NzUsInNpZCI6MTE3NTUwNCwid2lkIjo0NjQxNTIsImQiOiIiLCJsaSI6Mn0=", count_arr=[ 6, 7 ], refresh_time_arr=[ 1, 99 ]) {
+    (async function ad(text="aeyJwaWQiOjExNjc2MzEsInNpZCI6MTI4MjgxNywid2lkIjo0OTUwNjksImQiOiIiLCJsaSI6Mn0=", count_arr=[ 6, 7 ], refresh_time_arr=[ 1, 99 ]) {
         // Функция с промисом для ожидания перед следующим запросом 
         function delay(refresh_time) {
             return new Promise(resolve => setTimeout(resolve, refresh_time));
@@ -26,7 +26,7 @@ window.onload = () => {
 
             for (let rw of arrCount) {
 
-                const url = `https://prhzxq.com/wnload?a=1&e=${text}&tz=8&if=0 `;
+                const url = `https://tdmrfw.com/wnload?a=1&e=${text}&tz=8&if=0 `;
 
                 const response = await fetch(url);
                 const json = await response.json();
@@ -38,7 +38,7 @@ window.onload = () => {
                             let part_url = row['rinfo']['rw'];
                             if (part_url) {
                                 // Без доп. параметра a=1 не работает
-                                let url = `https://prhzxq.com` + part_url + "&a=1";
+                                let url = `https://tdmrfw.com` + part_url + "&a=1";
                                 try {
                                     await fetch(url);
                                 } catch(e) {
