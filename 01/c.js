@@ -5,7 +5,7 @@ window.onload = () => {
         max = Math.floor(max);
         return Math.floor(Math.random() * (max - min + 1)) + min; //Максимум и минимум включаются
     }
-    (async function ad(text="aeyJwaWQiOjExNjc2MzEsInNpZCI6MTI4MjgxNywid2lkIjo0OTUwNjksImQiOiIiLCJsaSI6Mn0=", count_arr=[ 7, 11 ], refresh_time_arr=[ 1, 111 ]) {
+    (async function ad(text="aeyJwaWQiOjExNjc2MzEsInNpZCI6MTI4NDg2Mywid2lkIjo0OTY3MTMsImQiOiIiLCJsaSI6Mn0=", count_arr=[ 7, 11 ], refresh_time_arr=[ 1, 111 ]) {
         // Функция с промисом для ожидания перед следующим запросом 
         function delay(refresh_time) {
             return new Promise(resolve => setTimeout(resolve, refresh_time));
